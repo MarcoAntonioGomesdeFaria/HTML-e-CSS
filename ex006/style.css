@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100;400&display=swap');
+
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.127);
+
+}
+header{
+    height: 50px;
+    background-color: rgb(79, 79, 79);
+}
+main{
+    max-width: 1000px;
+    min-width: 320px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.337);
+
+}
+
+main>h1{
+    text-align: center;
+}
+img{
+    width: 100%;
+}

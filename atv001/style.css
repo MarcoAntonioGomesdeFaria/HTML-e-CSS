@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Open+Sans:wght@300&family=Roboto:wght@100;400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+li{
+    margin-left: 3%;
+}
+
+
+:root{
+   --escuro: rgb(56, 54, 54);
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.kono{
+    background-color: aliceblue;
+    box-shadow: 1px 2px 13px #00000078;
+    width: 100%;
+}
+
+header{
+    background-image: linear-gradient(to top, var(--escuro), rgba(66, 66, 66, 0.276));
+    padding-top: 12px;
+    background-color: rgb(100, 100, 100);
+    min-height: 153px;
+    color: aliceblue;
+    margin-bottom: 3px;
+}
+#titulo1{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 4px 3px 9px #00000078;
+}
+header >h2{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 1.5%;
+    text-align: center;    
+    margin:auto;
+}
+
+nav{
+    background-color: var(--escuro);
+    box-shadow: 0px -4px 1px #c53131;
+    margin: auto;
+    
+}
+a:hover{
+    background-color: rgb(255, 27, 27);
+}
+nav a {
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 1.5em;
+    color:rgb(219, 223, 226);
+    text-decoration: none;
+}
+main{
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.353);
+    margin-bottom: 12px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+main > article > aside > ul{
+    color: black;
+    font-weight: bold;
+
+    }
+aside{
+    background-color: rgba(65, 65, 65, 0.039);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.106);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+aside>h2{
+
+    background-image: linear-gradient(to right,var(--escuro),rgba(78, 78, 78, 0.276), transparent );
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+p{
+    margin: 15px 0px;
+    text-indent: 10px;
+    line-height: 1.5em;
+}
+#aqua{
+    display: inline;
+    max-width: 300px;
+    width: 100%;
+    padding-left: 12px;
+}
+
+div.video{
+    background-color: #c53131;      
+    margin: 0px -20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+
+
+footer{  
+    color:#e3e3e3c3;
+    background-color:var(--escuro);
+    height: 90px;
+    
+}
+#foottext{
+    
+    margin-left: 25%;  
+}

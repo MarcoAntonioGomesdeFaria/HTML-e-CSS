@@ -1,0 +1,30 @@
+body {
+    color: antiquewhite;
+    background-color: rgb(61, 61, 61);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.items{ 
+    font-size: 2em;
+    color: antiquewhite;
+    width: 1000px;
+}
+a{   
+    color: antiquewhite;
+    text-decoration: none;
+}
+a:visited {
+}
+
+a:hover{
+    text-decoration: line-through;
+    color: brown;
+}
+
+a:active{
+    color: darkred;
+}
+a::after{
+    content: " [link]";
+    text-decoration: none;
+    color: blue;
+}

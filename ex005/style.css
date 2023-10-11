@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Open+Sans:wght@300&display=swap');
+@font-face {
+    font-family: "simple";
+    src: url('fonts/Light.ttf');
+     
+}
+
+div{
+    display: block;
+    background-color: lightgray;
+    text-align: center;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+div > p{
+
+    display: none;
+}
+
+div:hover >p {
+    display: block;
+}
+
+#d1:hover {
+    background-color: rgb(25, 170, 49);
+}#d2:hover {
+    background-color: rgb(240, 240, 6);
+}#d3:hover {
+    background-color: rgb(236, 13, 13);
+}
