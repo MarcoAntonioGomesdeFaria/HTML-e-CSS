@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Osmanya&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma sans-serif;
+    --fonte2: 'Passion One', sans-serif;
+    --fonte3: 'Sriracha', cursive;
+    --font4: 'Noto Sans Osmanya', sans-serif;
+}
+
+*{
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: darkgrey;
+    min-height: 100vh;
+    font-family: var(--fonte4);    
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+header>h1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 5vw;
+}
+header >p{
+    padding-bottom: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(186, 186, 186);
+    font-weight: bolder;
+
+}
+a:hover{
+    color: rgb(225, 225, 225);
+    text-decoration: underline;
+}
+
+main{
+    min-height: none;
+}
+
+section{
+    padding-left: 30px;
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: 3vw;
+}
+
+section.normal{
+    background-color: rgb(255, 255, 255);
+}
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.476);
+    color: aliceblue;    
+    box-shadow: inset -1px 9px 15px #0000007d;
+    background-attachment: fixed;
+}
+#img1{
+    
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+#img2{
+    
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+}
+
+
+section>p{
+
+    text-shadow: 1px 1px 1px black;
+    font-family: var(--fonte3);
+}
+
+section.imagem p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+
+}
+
+
+footer{
+    padding-top: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+}
