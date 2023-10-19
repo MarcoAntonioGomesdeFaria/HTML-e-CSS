@@ -26,13 +26,21 @@ header{
     background-color: rgb(0, 134, 255);
 }
 
+
+header h2{
+    padding-top: 20px;
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;
+    color: white;
+}
+
 header>h1{
     font-family: 'Roboto', sans-serif;  
-    font-size: 2.2em;
-    width: 170px;
+    font-size: 2.7em;
     padding-top: 27px;
     text-align: left;
-    padding-left: 5%;
+    padding-left: 40%;
     color: white;
 }
 
@@ -43,6 +51,7 @@ nav{
     background-color: rgb(0, 134, 255);
     margin-bottom: 20px;
     background-color:  rgb(0, 134, 255) ;
+    box-shadow: 0px 2px 2px #00000040;
 }
 #menu li{
     display: inline;
@@ -109,13 +118,13 @@ main h2{
 
 .produto{
     cursor: pointer;
-   /* border: 1px solid black;*/
+    /*border: 1px solid black;*/
     width: 200px;
     padding: 10px;
 
 }
-.produto> img:hover{
-    background-color: aliceblue;
+.produto:hover{
+    opacity: 50%;
 }
 
 main h1{ 
@@ -124,6 +133,11 @@ main h1{
     font-family: 'Roboto', sans-serif;
     color: var(--cinza);
     margin-bottom: 20px;  
+}
+
+#serviços ul{
+    
+    margin-bottom: 20px; 
 }
 
 #serviços p{  
@@ -138,8 +152,6 @@ main h1{
 
 
 #imagens{
-    margin-left:-500px ;
-    margin-right:-500px ;
     margin-top: 50px;
 
     margin-bottom: 50px;
@@ -163,7 +175,7 @@ main h1{
     padding-bottom: 20px;
     text-align: center;
 }
-#info p{
+p{
     font-size: 1.1em;
     text-indent: 2%;
     line-height: 1.3em;
