@@ -159,7 +159,7 @@ nav li a:hover{
     padding-bottom: 50px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    font-size: 2em;
+    font-size: 2.1em;
     color: var(--cinza);
     margin-bottom: 20px;  
     text-align: center;
@@ -191,6 +191,10 @@ nav li a:hover{
 }
 
 #serviço h2{
+    font-size: 1.8em;
+}
+
+#serviço h2{
     padding: 0px;
     margin-left: 0px;
 }
@@ -199,13 +203,13 @@ nav li a:hover{
     padding: 20px;
     width: 400px;
 }
-#comentario p{
-    
+#comentario p{    
     color: var(--cinza);
 }
 
 #imgserviço1,#imgserviço2,#imgserviço3{
     padding: 20px;
+    max-width: 100%;
     width: 470px;
     height: 300px;
 }
