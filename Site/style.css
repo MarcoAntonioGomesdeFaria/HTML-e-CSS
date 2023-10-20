@@ -37,7 +37,6 @@ header>h1{
     
     color: white;
 }
-
 nav{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -307,11 +306,12 @@ p{
     background-attachment: fixed;
     box-shadow: inset 1px 1px 14px #0000006e;
 }
+/*
 .shadowback{
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.112);
     border-radius: 9px;
-}
+}*/
 
 
 footer{
