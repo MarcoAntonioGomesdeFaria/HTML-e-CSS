@@ -49,7 +49,7 @@ nav{
     margin: auto;
     height: 40px;
     background-color: rgb(0, 134, 255);
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     background-color:  rgb(0, 134, 255) ;
     box-shadow: 0px 2px 2px #00000040;
 }
@@ -84,21 +84,21 @@ nav{
     width: 300px;
     padding-right: 22px;    
 }
-main{
+.principal{
     min-width: 320px;
     max-width: 1000px;
     margin: auto;
     /*background-color: rgba(0, 0, 0, 0.095);*/
 }
 #produtos{
+    margin-top: 35px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 90px;   
-    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.269);; 
 }
 
-main h2{
+.principal h2{
     margin: 20px;
     font-family: 'Roboto', sans-serif;
     color: var(--cinza);
@@ -123,11 +123,23 @@ main h2{
     padding: 10px;
 
 }
-.produto:hover{
+.produto img:hover{
     opacity: 50%;
 }
 
-main h1{ 
+.produto img{
+    border-radius: 8px 0px;
+}
+.primeira-imagem{
+    box-shadow: inset 0px -2px 5px #00000040;
+    background-image: url(imagens/96700b_d82245089af343f8925694fefc84593a~mv2.webp);
+    background-size: cover;
+    height: 400px;
+    width: -500px;
+    margin-bottom: 50px;
+}
+
+.principal h1{ 
     
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
@@ -135,19 +147,61 @@ main h1{
     margin-bottom: 20px;  
 }
 
-#serviços ul{
-    
-    margin-bottom: 20px; 
+.serviços h1{  
+    font-weight: bold;
+    margin-top: 90px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color: var(--cinza);
+    margin-bottom: 20px;  
+    text-align: center;
+
 }
 
-#serviços p{  
-   
-    margin-bottom: 20px; 
-}
-
-#serviços{ font-family: 'Roboto', sans-serif;
+.serviços{  
+    background-color: rgb(239,251,255);    
+    font-family: 'Roboto', sans-serif;
     color: var(--cinza);
     margin-bottom: 90px; 
+    padding: 20px;
+    box-shadow: inset 0px 3px 6px #00000029;
+    
+}
+
+#serviço{
+    height: 400px;
+    margin-top: 40px;
+    /*border:1px solid black;*/
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1.5px solid var(--cinza) ;
+}
+
+#serviço:last-child{
+    border-bottom: 1.5px solid rgb(239,251,255);  
+}
+
+
+#serviço h2{
+    padding: 0px;
+    margin-left: 0px;
+}
+
+#comentario{
+    padding: 20px;
+    width: 300px;
+    display: inline-block;
+}
+
+#imgserviço1,#imgserviço2,#imgserviço3{
+    padding: 20px;
+    width: 400px;
+    height: 270px;
+    display: block;
 }
 
 
@@ -168,13 +222,19 @@ main h1{
 #info{
     margin: 30px 0;
     font-family: 'Noto Sans', sans-serif;
-
+    
 }
 #info h2{
     font-size: 2em;
     padding-bottom: 20px;
     text-align: center;
 }
+
+#endereço p{
+    text-indent: 0%;
+}
+
+
 p{
     font-size: 1.1em;
     text-indent: 2%;
@@ -217,4 +277,3 @@ footer{
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
-
