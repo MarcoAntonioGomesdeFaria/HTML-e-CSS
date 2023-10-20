@@ -73,6 +73,7 @@ nav li a:hover{
 }
 
 .dropdown-menu{
+    background-color: var(--azul);
     position: absolute;
     box-shadow: 1px 0px 2px var(--azul);
     display: none;
