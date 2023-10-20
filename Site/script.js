@@ -1,10 +1,12 @@
-function menuShow() {
-    let menuMobile = document.querySelector('.mobile-menu');
-    if (menuMobile.classList.contains('open')) {
-        menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "assets/menu_white_36dp.svg";
-    } else {
-        menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "assets/close_white_36dp.svg";
+const nav=document.getElementsByTagName("nav")[0];
+const topoNav=nav.offsetTop;
+
+window.onscroll=function(){fixarnotopo();}
+
+function fixarnotopo(){
+    if(window.scrollY >= topoNav){
+        nav.classList.add("fixonotopo");
+    }else{
+        nav.classList.remove('fixonotopo');
     }
 }
