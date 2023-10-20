@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 
 *{
     margin: 0px;
@@ -11,6 +11,7 @@
 :root{
     --cinza:rgba(0, 0, 0, 0.798);
     --azul:rgb(0, 134, 255);
+    --fonte:'Roboto', sans-serif;  
 }
 body{
    
@@ -208,8 +209,12 @@ nav li a:hover{
     padding: 20px;
     width: 400px;
 }
+#comentario h2{
+}
+
 #comentario p{    
-    color: var(--cinza);
+    color: black;
+    font-size: 1.3em;
 }
 
 #imgserviço1,#imgserviço2,#imgserviço3{
@@ -218,6 +223,7 @@ nav li a:hover{
     width: 470px;
     height: 300px;
 }
+
 
 #info{
     padding: 50px 0px 100px 0px;
