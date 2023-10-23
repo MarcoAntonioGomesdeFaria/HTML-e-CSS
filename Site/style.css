@@ -182,22 +182,25 @@ nav li a:hover{
     
 }
 
-#serviço{
+.serviço{
     min-height: 400px;
     margin-top: 40px;
-    /*border:1px solid black;*/
+    border-bottom:1px solid rgba(0, 0, 0, 0.252);
     padding: 20px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.serviço:last-child{
+    border-bottom:none;
+}
 
 
-#serviço h2{
+.serviço h2{
     font-size: 1.8em;
 }
 
-#serviço h2{
+.serviço h2{
     padding: 0px;
     margin-left: 0px;
 }
