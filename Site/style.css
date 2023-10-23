@@ -192,9 +192,6 @@ nav li a:hover{
     flex-wrap: wrap;
 }
 
-#serviço:last-child{
-    border-bottom: 1.5px solid rgb(239,251,255);  
-}
 
 #serviço h2{
     font-size: 1.8em;
@@ -208,8 +205,6 @@ nav li a:hover{
 #comentario{
     padding: 20px;
     width: 400px;
-}
-#comentario h2{
 }
 
 #comentario p{    
@@ -252,7 +247,6 @@ p{
 }
 #endereço{
     padding-top: 50px;
-    padding: 52px;
     padding-bottom: 40px;
     color: white;
     font-family: 'Noto Sans', sans-serif;
