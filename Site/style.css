@@ -19,6 +19,7 @@ body{
 
 header{
     min-height: 100px;
+    width: 100%;
     background-color: rgb(247, 247, 247);
 }
 header img{
@@ -184,7 +185,8 @@ nav li a:hover{
 }
 
 .serviço{
-    min-height: 320px;
+    min-height: 400px;
+    min-width: 320px;
     margin-top: 40px;
     border-bottom:1px solid rgba(0, 0, 0, 0.252);
     padding: 20px;
