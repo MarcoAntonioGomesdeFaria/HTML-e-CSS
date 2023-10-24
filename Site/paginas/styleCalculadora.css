@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Robotox:wght@700&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -9,6 +8,11 @@
     --cinza:rgba(0, 0, 0, 0.798);
     --azul:rgb(0, 134, 255);
     --fonte:'Roboto', sans-serif;  
+}
+.fundo{
+    box-shadow: inset 1px 5px 14px #0000003d;
+    margin: 0px; 
+    background-color: rgba(249, 249, 249);
 }
 
 body{
@@ -101,6 +105,7 @@ nav li a:hover{
 }
 
 .introduçao{
+    padding-bottom: 50px;
     display: flex;
 }
 .comentario{
@@ -116,13 +121,10 @@ nav li a:hover{
     line-height: 1.4em;
     
 }
-
 #mascote{
     width: 230px;
     height: 290px;
 }
-
-
 footer{
     padding-top: 40px;
     padding-bottom: 10px;
@@ -138,32 +140,66 @@ footer p{
     font-size: 1em;
 }
 
-.conversoes{
-    margin-bottom: 50px;
-}
-
-.conversoes h1{
-    padding-left: 0px;
-}
-
-.conversao1 p{
-    font-size: 1.2em;
-    font-weight: bold;
-    padding-bottom: 10px;
-    width: 100px;
-}
-
-#linha1{
-    display: flex;
+.meio{
+    padding-top: 30px;
     margin-top: 50px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
 }
 
-#barra{
-    margin-left: 20vw;
-    padding: 10px;
-    height: 2px;
-    width: 230px;
+.meio h1{
+        padding: 20px;
+        font-size: 2em;
 }
-.medida{
-    margin-left: 20vw;
+
+.conversao h1{
+    color: var(--azul);
+}
+
+thead>tr>th{
+    font-weight: bold;
+}
+
+
+.conversao p{
+    padding: 20px;
+    text-indent: 5px;
+}
+.conversao{
+    padding-bottom: 50px;
+
+}
+.conversao h2{
+    padding: 20px;
+
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 20px;
+    text-align: center;
+}
+th{
+    font-size: 1.4em;
+}
+
+.area{
+    margin-left: 20px;
+    width: 400px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid black;    
+background-color: rgba(249, 249, 249);
+}
+
+.text-input{
+width: 20vw;
+background-color: rgba(249, 249, 249);
+height: 20px;
+border: none;
+border-bottom: 1px solid black;
 }
