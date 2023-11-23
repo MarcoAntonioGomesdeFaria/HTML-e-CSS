@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigoculto</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        :root{
+            --fonte:'Roboto', sans-serif;
+
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            font-family: var(--fonte);
+        }main{
+            min-height: 400px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        main h1,h2{
+            text-align: center;
+            padding: 20px;
+        }
+        .meio{  
+            justify-content: center;            
+            display: flex; 
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        #ou{
+            display: block;
+            padding: 20px;
+            font-size: 2.5em;
+            margin-top: 20vh;
+            
+
+        }
+
+        .doisreais{
+            width: 400px;
+            height: 200px;
+            max-width: 100%;
+            padding: 100px 20px;
+
+        }
+        .presente{ 
+            width: 400px;
+            height: 400px;
+            padding: 20px;
+            max-width: 100%;
+        }
+        
+        
+        .doisreais:hover{
+            transform: scale(1.2);
+        }
+        .presente:hover{
+            transform: scale(1.2);
+        }
+
+    </style>
+</head>
+<body>
+    
+    <main>
+        
+            <h1>Amigo oculto do server</h1>
+            <h2>Escolha seu presente:</h2>
+        
+
+        <section class="meio">
+            <a href="#">
+                <img class="doisreais" src="imagens/2reais.png" alt="2reais/png">
+                
+            </a>
+            <h1 id="ou">OU</h1>
+            <a href="#">
+                <img class="presente" src="imagens/Presente.png" alt="presente/png">
+            </a>
+            
+            
+            
+            
+        </section>
+
+    </main>
+</body>
+</html>
