@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*demais midias*/
+
+
+@media screen and (max-width:768px){
+    body{
+        background-image: url(../../imagens/back-phone.jpg);
+    }
+    #phone{
+        display: block;
+    }
+    main{width: 80vw;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {/*TABLET*/
+    #tablet{
+        display: block;
+    }
+    body{
+        background-image: url(../../imagens/back-tablet.jpg);
+    }
+    main{width: 80vw;}
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){/*DESKTOP*/
+    body{
+        background-image: url(../../imagens/back-pc.jpg);
+    }
+    #pc{
+        display: block;
+    }
+    main{width: 80vw;}
+}
+
+@media screen and (min-width:1200px){/*TELAS GRANDES*/
+    body{
+        background-image: url(../../imagens/back-tv.jpg);
+    }
+    #tv{
+        display: block;
+    }
+    main{width: 80vw;}
+}

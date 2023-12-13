@@ -142,9 +142,10 @@ nav li a:hover{
     border-radius: 8px 0px;
 }
 .primeira-imagem{
-    background-image: url(imagens/gesso_na_sala_com_janelas_lightology.jpg);
-    background-position: bottom center;
+    background-image: url(imagens/back-tv.jpg);
+    background-position:  center;
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     height: 400px;
     box-shadow: inset 1px 6px 9px #00000040;
