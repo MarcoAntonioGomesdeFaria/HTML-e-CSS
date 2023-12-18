@@ -1,0 +1,40 @@
+
+@media screen and (max-width:768px){
+    #menu-hamburguer{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        padding:10px;
+        cursor: pointer;
+        
+    }
+    menu{
+        display: none;
+    }
+    menu li{
+        display: block
+    }
+    #menu-hamburguer:hover{
+        
+        background-color: rgb(69, 69, 69);
+        
+    }
+
+}
+
+@media screen and (min-width:768px){
+    menu{
+        padding-top: 31px;
+        margin: auto;
+        display: block;
+        max-width: 768px;
+    }
+    header{
+        height: 130px;
+    }
+    main{
+        max-width: 800px;
+    }
+    
+}
