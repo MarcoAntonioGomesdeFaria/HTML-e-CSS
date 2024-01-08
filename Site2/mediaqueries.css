@@ -1,0 +1,76 @@
+:root{
+    --cinza:rgba(0, 0, 0, 0.798);
+    --azul:rgb(0, 134, 255);
+    --fonte:'Roboto', sans-serif;  
+    --branco:rgb(247, 247, 247);
+}
+
+@media screen and (max-width:768px){/*CELULAR*/
+
+    #hamburguer{
+        padding: 5px;
+        font-size: 1.8em;
+        display: block;
+        text-align: center;
+    }
+    #hamburguer:hover{
+        cursor: pointer;
+    }
+    menu{
+        display: none;
+        background-color: var(--branco);
+    }
+    menu ul{
+        list-style: none;
+    }
+    menu ul li{
+        margin: 1px 0px;
+        padding: 10px;  
+        background-color: var(--azul);
+        
+    }
+    menu ul li a{
+        text-decoration: none;
+    }
+
+    menu ul li:hover{
+        border-radius: 4px;
+        background-color: rgb(79, 173, 255);;
+    }
+    
+}
+
+@media screen and (min-width:768px){/*PC*/
+    #imagem-head{
+        text-align: left;
+        margin-left: 24vw;
+    }
+   #hamburguer{
+    display: none;
+   }
+
+    menu{
+        background-color: var(--azul);
+        height: 50px;
+    }
+    menu ul{
+        text-align: center;
+        
+    }
+    menu ul li{
+        padding: 10px;
+        font-size: 1.3em;
+        font-weight: bold;
+        display: inline-block;
+    }
+    menu ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    menu ul li:hover{
+        border-radius: 4px;
+        background-color: rgb(79, 173, 255);;
+    }
+
+
+}

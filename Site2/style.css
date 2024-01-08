@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+:root{
+    --branco:rgb(247, 247, 247);
+    --cinza:rgba(0, 0, 0, 0.798);
+    --azul:rgb(0, 134, 255);
+    --fonte:'Roboto', sans-serif;  
+}
+
+header{
+    background-color: var(--branco);
+    
+}
+
+#imagem-head{
+    text-align: center;
+}
+
+menu{
+    box-shadow: -1px 2px 5px #0000009e;
+}
+
+menu ul{
+    padding-top: 2.1px;
+}
+
+li{
+    
+    display: block;
+}
+
+menu ul li a{
+    color: white;
+}
+
+#imagem1{
+    background-image: url(imagens/sala-de-estar-de-luxo-loft-de-renderizacao-3d-com-estante-perto-da-estante_105762-2224.jpg) ;
+    height: 590px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 40% ;
+    
+    box-shadow: inset 0px 2px 11px #00000080;
+}
+
+.meio{
+    max-width: 1000px;
+    margin: auto;
+}   
+.meio h1{
+    margin: 50px 0px 0px 0px;
+    padding: 10px;
+    color: var(--cinza);
+}
+
+#proposta{
+    margin: 100px 0px;
+
+}
+#proposta h1{
+    padding: 20px;
+    text-align: center;
+    color: var(--cinza);
+    font-size: 1.8em;
+}
+
+#proposta p{
+    font-size: 1.1em;
+    padding: 10px;
+    color: var(--cinza);
+    text-indent: 2%;
+    font-weight: 400;
+}
+
+#peça:hover{
+    color: white;
+    background-color: var(--azul);
+}
+
+
+/*CONFIGURAÇAO FLEX PRODUTOS*/
+
+#produtos{
+    margin: 20px 0px 80px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 5px;
+
+}
+.produto{
+    padding: 10px;
+    font-weight: 300;
+    width: 230px;
+
+}
+
+.produto img{
+    border-radius: 5px 0px;
+}
+
+.produto h2{
+    color: var(--cinza);
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.produto p{
+    font-weight: 300;
+    padding: 5px;
+}
+.produto img:hover{
+    transition: .5s;
+    opacity: 50%;
+}
+
+#serviços{  
+    background-color: rgb(239,251,255);    
+    font-family: 'Roboto', sans-serif;
+    color: var(--cinza);
+    padding-bottom: 90px; 
+    padding: 20px;
+    box-shadow: inset 0px 3px 6px #00000029; 
+}
+
+#serviços h1{  
+    font-weight: bold;
+    margin-top: 90px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.1em;
+    color: var(--cinza);
+    margin-bottom: 20px;  
+    text-align: center;
+
+}
+.serviço{
+    min-height: 400px;
+    min-width: 320px;
+    margin-top: 40px;
+    border-bottom:1px solid rgba(0, 0, 0, 0.252);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.serviço:last-child{
+    border-bottom: none;
+}
+
+#comentario{
+    padding: 20px;
+    width: 400px;
+}
+#comentario h2{
+    font-size: 1.8em;
+    margin-bottom: 25px;
+}
+
+#comentario p{
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+#imgserviço1,#imgserviço2,#imgserviço3{
+    padding: 20px;
+    max-width: 100%;
+    width: 470px;
+    height: 300px;
+}
+
+
+/*FINAL*/
+
+
+
+#endereço p{
+    text-indent: 0%;
+}
+#endereço h1{
+    font-size: 2em;
+}
+
+
+p{
+    font-size: 1.1em;
+    text-indent: 2%;
+    line-height: 1.3em;
+}
+#endereço{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.3em;
+    text-align: start;
+    min-width: 320;
+}
+#endereço h1,#endereço> p{
+    
+    color: white;
+    font-weight: bold;
+}
+
+#endereço a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#endereço a:hover{
+    text-decoration: underline;
+    color: rgb(235, 236, 255);
+
+}
+
+#mapa{
+    padding: 20px;
+    position: relative;
+    padding-bottom: 40%;
+}
+
+#mapa>iframe{    
+    top: 5%;
+    left: 5%;
+    bottom: 15%;
+    width: 90%;
+    height: 80%;    
+    position: absolute;
+    
+}
+
+#endereço >h1{
+    font-family:'Noto Sans', sans-serif; 
+    width: 420px;
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+
+#avenida{
+    padding: 20px;
+}
+
+#final{
+    background-image: url(../imagens/96700b_d82245089af343f8925694fefc84593a~mv2.webp   );
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inse 1px 1px 14px #0000006e;
+    text-shadow: 1px 1px 5px black;
+}
+
+
+
+
+footer{
+    padding: 30px;
+    text-align: center;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.792);
+    height: 120px;
+    background-color: var(--cinza);
+    font-family: 'Roboto', sans-serif;    
+}
