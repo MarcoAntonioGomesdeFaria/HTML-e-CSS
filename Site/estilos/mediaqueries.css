@@ -1,0 +1,17 @@
+
+@media screen and (max-width:768px){
+    
+    #itens{
+        display: block;
+        
+    }
+    #menu-hamburguer{
+        display: block;
+        text-align: center;
+        padding: 10px 10px 5px 10px;
+        font-size: 1.8em;
+    }
+    #menu-hamburguer:hover{
+        cursor: pointer;
+    }
+}

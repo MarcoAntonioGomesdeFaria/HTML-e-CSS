@@ -31,17 +31,22 @@
         float: right;
         width: 70%;
         height: 100%;
-        transition: .3s, .3s;
-        
+        transition: .1s, .1s;
+        transition-timing-function: ease;
     }
+
+    .campo{
+        width: 100%;
+    }
+    #isenha,#iemail{
+        width: calc(100% -40px);
+    }
+
     #formulario h1{
         font-size: 2em;
     }
     
-    input{
-    }
     #ibtn{
-        margin-left: 170px;
         padding: 5px;
     }
 }
@@ -56,6 +61,7 @@
         width:70vw;
         transition: width .2s, height .2s;
         transition-timing-function: ease;
+        max-width: 1200px;
     }
     #imagem{
         float:right;
@@ -73,8 +79,6 @@
     #formulario h1{
         font-size: 2.1em;
     }
-    input{
-    } 
     #ibtn{
         margin-top: 10px;    
         padding: 5px;
