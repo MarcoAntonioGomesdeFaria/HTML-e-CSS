@@ -16,6 +16,10 @@
     #hamburguer:hover{
         cursor: pointer;
     }
+    header{
+        
+        box-shadow: 0px 4px 10px #00000066;
+    }
     menu{
         display: none;
         background-color: var(--branco);
