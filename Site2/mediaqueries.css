@@ -42,9 +42,17 @@
         background-color: rgb(79, 173, 255);;
     }
     
+    #digite-area{
+        width:400px;
+    }
 }
 
 @media screen and (min-width:768px){/*PC*/
+
+    
+    #digite-area{
+        width: 600px ;
+    }
     #imagem-head{
         text-align: left;
         margin-left: 24vw;

@@ -38,11 +38,12 @@
         }
         #conversoes{
             box-shadow: inset 1px 1px 7px #000000a6;
-            background-color: var(--branco);
+            background-color: var(--branco); 
         }
-        .conversao1{
-            margin: auto;
+        .conversao1{    
             max-width: 900px;
+            padding-bottom: 40px;
+            margin: auto;
 
         }
         .conversao1 h1{
@@ -81,11 +82,15 @@
         }
 
         .text-input{
-        width: 20vw;
-        background-color: rgba(249, 249, 249);
-        height: 20px;
-        border: none;
-        border-bottom: 1px solid black;
+            width: 20vw;
+            background-color: rgba(249, 249, 249);
+            height: 20px;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+        .text-input:focus, input:focus {
+            box-shadow: 0 0 0 0;
+            outline: 0;
         }
 
 
@@ -109,7 +114,7 @@
             <ul>
                <li><a href="index.html">Home</a></li>
                <li><a href="calculadora.html">Serviços</a></li>
-               <li><a href="#">Galeria</a></li>
+               <li><a href="https://api.whatsapp.com/send/?phone=5522981274700&text&type=phone_number&app_absent=0" target="_blank">Contato</a></li>
                <li><a href="https://www.facebook.com/imperadordogesso" target="_blank">Facebook</a></li>
 
             </ul>
@@ -139,7 +144,7 @@
 
                         <h2>Digite a area:</h2>
 
-                        <input class="text-input"  type="number">
+                        <input class="text-input" id="digite-area"  type="number">
 
                         <table>
                             <thead> <!-- CABEÇA -->
@@ -183,9 +188,56 @@
 
                     </div>
 
+                    <div class="conversao1">
+                        <h1>Parede de Gesso</h1>
+                        <p>A parede de gesso... Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, debitis in sapiente dolore ducimus, enim atque et magnam ab consequuntur quae temporibus delectus quas fugiat hic, totam eum voluptates nobis.</p>
 
+                        <h2>Digite a area:</h2>
 
-            </section>
+                        <input class="text-input" id="digite-area" type="number">
+
+                        <table>
+                            <thead> <!-- CABEÇA -->
+                                <tr>
+                                    <th>Produto</th>
+                                    <th>Unidade</th>
+                                    <th>Quantidade</th>
+                                </tr>
+                            </thead>
+        
+                            <tbody><!-- CORPO -->
+                                <tr>
+                                    <td>Material1</td>
+                                    <td>m²</td>
+                                    <td><input class="text-input" type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>Material2</td>
+                                    <td>m²</td>
+                                    <td><input class="text-input" type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>Material3</td>
+                                    <td>m²</td>
+                                    <td><input class="text-input" type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>Material4</td>
+                                    <td>m²</td>
+                                    <td><input class="text-input" type="text"></td>
+                                </tr>
+                                <tr>
+                                    <td>Material5</td>
+                                    <td>m²</td>
+                                    <td><input class="text-input"  type="text"></td>
+                                </tr>
+        
+                            </tbody>
+        
+                        </table>
+                    </div>
+
+                </section>
         </main>
 
     </body>
